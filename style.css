@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #fd6569;
+}
+.navbar-brand{
+    color: #fd6569;
+}
+
+
+        .navbar-nav a {
+            color: white;
+            margin-right: 15px;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .navbar-nav a:hover {
+            color: #fd6569;
+            text-decoration: underline;
+        }
+    
+
+.cont {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.bookcont {
+    margin: 30px;
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    color: white;
+    background-color: black;
+    border: 2px solid crimson;
+    border-radius: 30px;
+}
+
+.bookcont h2 {
+    color: #fd6569;
+}
+
+.bookcont button {
+    background-color: #fd6569;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.addbtn {
+    background-color: #fd6569;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100%;
+    color: black;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.addbtn:hover {
+    font-size: 3.1rem;
+    transform: translateY(-3px);
+    transition: all 1s ease;
+}
+
+.popovlay {
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    width: 40%;
+    padding: 20px;
+    background-color: #fd6569;
+    left: 30%;
+    top: 20%;
+    display: none;
+    z-index: 2;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup input {
+    background: transparent;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    font-size: 1rem;
+    border: solid black;
+    border-width: 0 0 2px 0;
+    border-radius: 2px;
+    outline: none;
+}
+
+.popup input::placeholder {
+    color: black;
+}
+
+.popup textarea {
+    padding: 5px;
+    background: transparent;
+    font-size: 1rem;
+    border: 2px solid black;
+    outline: none;
+}
+
+.popup textarea::placeholder {
+    color: black;
+}
+
+.popup button {
+    background-color: #fd6569;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    cursor: pointer;
+    border: white 1px solid;
+    width: 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin: 15px 5px;
+}
+
+.popup button:hover {
+    color: white;
+    background-color: green;
+}
+
+.popup #clsbtn {
+    
+}

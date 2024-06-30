@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#" style="color: red;">Surya's Favs</a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <a href="">Home</a>
+                <a href="">Add book</a>
+                <a href="">Explore Group</a>
+                <a href="">Team</a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-3 pt-3">
+        <div class="row cont">
+           
+        </div>
+        <div class="popovlay"></div>
+        <div class="popup">
+            <h2>Add your book</h2>
+            <form action="">
+                <input type="text" class="tbx" id="bkname" placeholder="Enter book name">
+                <input type="text" class="tbx" id="authname" placeholder="Enter Author name">
+                <textarea name="" id="descp" cols="30" rows="5" placeholder="Short description"></textarea>
+            </form>
+            <button type="button" id="adddbtn">Submit</button>
+            <button type="button" id="delbtn">Delete</button>
+            <button type="button" id="clsbtn">Close</button>
+        </div>
+
+        <button class="addbtn" id="addbook">+</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
